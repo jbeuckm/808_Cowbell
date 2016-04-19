@@ -13845,13 +13845,8 @@ by exp-lbrs.ulp</description>
 <net name="CY_OUT" class="0">
 <segment>
 <pinref part="R166*" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="-12.7" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LT_LC_OUT" class="0">
-<segment>
-<wire x1="193.04" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="OUTPUT" gate="G$1" pin="TIP"/>
+<wire x1="195.58" y1="-12.7" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">

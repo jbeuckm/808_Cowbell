@@ -13156,6 +13156,7 @@ by exp-lbrs.ulp</description>
 <part name="V3" library="supply1" deviceset="GND" device=""/>
 <part name="OUT_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="V5" library="supply1" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13316,6 +13317,7 @@ by exp-lbrs.ulp</description>
 <instance part="OUT_NORM" gate="-1" x="195.58" y="-35.56"/>
 <instance part="OUT_NORM" gate="-2" x="195.58" y="-38.1"/>
 <instance part="V5" gate="1" x="190.5" y="-43.18"/>
+<instance part="GND11" gate="1" x="157.48" y="-33.02"/>
 </instances>
 <busses>
 </busses>
@@ -13401,6 +13403,11 @@ by exp-lbrs.ulp</description>
 <pinref part="V5" gate="1" pin="GND"/>
 <wire x1="193.04" y1="-38.1" x2="190.5" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-38.1" x2="190.5" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="157.48" y1="-30.48" x2="157.48" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$516" class="0">

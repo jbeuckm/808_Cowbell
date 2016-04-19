@@ -13164,7 +13164,7 @@ by exp-lbrs.ulp</description>
 <text x="5.08" y="83.82" size="3.81" layer="94">Cowbell</text>
 </plain>
 <instances>
-<instance part="V325" gate="1" x="127" y="38.1"/>
+<instance part="V325" gate="1" x="127" y="27.94"/>
 <instance part="R15*" gate="G$1" x="114.3" y="86.36" rot="R90"/>
 <instance part="R10*" gate="G$1" x="114.3" y="71.12" rot="R90"/>
 <instance part="R3*" gate="G$1" x="106.68" y="71.12" rot="R90"/>
@@ -13257,7 +13257,7 @@ by exp-lbrs.ulp</description>
 </instance>
 <instance part="D1" gate="G$1" x="45.72" y="12.7" rot="R180"/>
 <instance part="D2" gate="G$1" x="45.72" y="45.72" rot="R180"/>
-<instance part="C5" gate="G$1" x="127" y="48.26"/>
+<instance part="C5" gate="G$1" x="127" y="38.1"/>
 <instance part="R13" gate="G$1" x="127" y="68.58" smashed="yes" rot="MR90">
 <attribute name="NAME" x="128.4986" y="64.77" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="131.318" y="64.77" size="1.778" layer="96" rot="MR90"/>
@@ -13325,7 +13325,7 @@ by exp-lbrs.ulp</description>
 <net name="GND" class="1">
 <segment>
 <pinref part="V325" gate="1" pin="GND"/>
-<wire x1="127" y1="40.64" x2="127" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="30.48" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -13673,7 +13673,7 @@ by exp-lbrs.ulp</description>
 <pinref part="C5" gate="G$1" pin="+"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="127" y1="55.88" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="127" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="127" y1="53.34" x2="127" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="127" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="53.34" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 <junction x="127" y="53.34"/>
