@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1926,8 +1926,8 @@ design rules under a new name.</description>
 <element name="R7" library="TR808clone" package="0207/5V" value="33k" x="29.464" y="62.23" rot="R270"/>
 <element name="R22" library="TR808clone" package="0207/5V" value="22K" x="45.974" y="49.276"/>
 <element name="R8" library="TR808clone" package="0207/7" value="33k" x="13.335" y="60.452" rot="R270"/>
-<element name="R5" library="TR808clone" package="0207/5V" value="330K" x="13.716" y="66.802"/>
-<element name="R6" library="TR808clone" package="0207/5V" value="390k" x="24.765" y="61.976" rot="R90"/>
+<element name="R5" library="TR808clone" package="0207/5V" value="100K" x="13.716" y="66.802"/>
+<element name="R6" library="TR808clone" package="0207/5V" value="150k" x="24.765" y="61.976" rot="R90"/>
 <element name="R23" library="TR808clone" package="0207/5V" value="10K" x="48.26" y="54.864" rot="R270"/>
 <element name="R9" library="TR808clone" package="0207/5V" value="2k2" x="33.274" y="55.626" rot="R270"/>
 <element name="R10" library="TR808clone" package="0207/5V" value="2k2" x="19.558" y="55.118" rot="R180"/>

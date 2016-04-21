@@ -13134,7 +13134,7 @@ by exp-lbrs.ulp</description>
 <part name="C9" library="rcl" deviceset="CPOL-US" device="B45181A" value="1uF/50"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100k"/>
-<part name="R16" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100k"/>
+<part name="R16" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="100k"/>
 <part name="R17" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10k"/>
 <part name="R18" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10k"/>
 <part name="C5" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="2.2n"/>

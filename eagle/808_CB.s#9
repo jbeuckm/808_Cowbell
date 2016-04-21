@@ -13101,8 +13101,8 @@ by exp-lbrs.ulp</description>
 <part name="R6" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="390k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R3" library="pot" deviceset="3RP/1610N" device="" value="200k"/>
-<part name="R4" library="pot" deviceset="3RP/1610N" device="" value="200k"/>
+<part name="TUNE_1" library="pot" deviceset="3RP/1610N" device="" value="200k"/>
+<part name="TUNE_2" library="pot" deviceset="3RP/1610N" device="" value="200k"/>
 <part name="R1" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="20K"/>
 <part name="R2" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="20K"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -13147,7 +13147,7 @@ by exp-lbrs.ulp</description>
 <part name="C11" library="rcl" deviceset="CPOL-US" device="B45181A" value="1uF/50"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="8k2"/>
-<part name="R28" library="pot" deviceset="3RP/1610N" device="" value="5kA"/>
+<part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="5kA"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C12" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="22n"/>
 <part name="R29" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22k"/>
@@ -13203,8 +13203,8 @@ by exp-lbrs.ulp</description>
 </instance>
 <instance part="GND3" gate="1" x="-25.4" y="30.48"/>
 <instance part="P+2" gate="1" x="-25.4" y="53.34"/>
-<instance part="R3" gate="G$1" x="-33.02" y="50.8" rot="R90"/>
-<instance part="R4" gate="G$1" x="-30.48" y="15.24" rot="R90"/>
+<instance part="TUNE_1" gate="G$1" x="-33.02" y="50.8" rot="R90"/>
+<instance part="TUNE_2" gate="G$1" x="-30.48" y="15.24" rot="R90"/>
 <instance part="R1" gate="G$1" x="-48.26" y="45.72" rot="R90"/>
 <instance part="R2" gate="G$1" x="-48.26" y="10.16" rot="R90"/>
 <instance part="IC1" gate="A" x="-40.64" y="-20.32"/>
@@ -13304,7 +13304,7 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="141.1986" y="-3.81" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="144.018" y="-3.81" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="R28" gate="G$1" x="139.7" y="-15.24"/>
+<instance part="LEVEL" gate="G$1" x="139.7" y="-15.24"/>
 <instance part="GND15" gate="1" x="139.7" y="-33.02"/>
 <instance part="C12" gate="G$1" x="149.86" y="-15.24" rot="R90"/>
 <instance part="R29" gate="G$1" x="157.48" y="-22.86" smashed="yes" rot="MR90">
@@ -13390,7 +13390,7 @@ by exp-lbrs.ulp</description>
 <wire x1="106.68" y1="-30.48" x2="106.68" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R28" gate="G$1" pin="A"/>
+<pinref part="LEVEL" gate="G$1" pin="A"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="139.7" y1="-30.48" x2="139.7" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
@@ -13562,14 +13562,14 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="20.32" x2="-25.4" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="S"/>
+<pinref part="TUNE_2" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="55.88" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="S"/>
+<pinref part="TUNE_1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -13586,14 +13586,14 @@ by exp-lbrs.ulp</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="E"/>
+<pinref part="TUNE_1" gate="G$1" pin="E"/>
 <wire x1="-48.26" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="E"/>
+<pinref part="TUNE_2" gate="G$1" pin="E"/>
 <wire x1="-48.26" y1="15.24" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13798,7 +13798,7 @@ by exp-lbrs.ulp</description>
 <net name="N$29" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="R28" gate="G$1" pin="E"/>
+<pinref part="LEVEL" gate="G$1" pin="E"/>
 <wire x1="139.7" y1="-10.16" x2="139.7" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13813,7 +13813,7 @@ by exp-lbrs.ulp</description>
 <net name="N$31" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="R28" gate="G$1" pin="S"/>
+<pinref part="LEVEL" gate="G$1" pin="S"/>
 <wire x1="147.32" y1="-15.24" x2="144.78" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>

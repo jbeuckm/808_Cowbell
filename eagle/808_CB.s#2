@@ -13221,7 +13221,7 @@ drill 1.1 mm</description>
 <text x="5.08" y="83.82" size="3.81" layer="94">Cowbell</text>
 </plain>
 <instances>
-<instance part="GND14" gate="1" x="127" y="27.94"/>
+<instance part="GND14" gate="1" x="127" y="22.86"/>
 <instance part="R24" gate="G$1" x="114.3" y="86.36" rot="R90"/>
 <instance part="R25" gate="G$1" x="114.3" y="71.12" rot="R90"/>
 <instance part="R22" gate="G$1" x="106.68" y="71.12" rot="R90"/>
@@ -13314,18 +13314,18 @@ drill 1.1 mm</description>
 </instance>
 <instance part="D2" gate="G$1" x="45.72" y="12.7" rot="R180"/>
 <instance part="D1" gate="G$1" x="45.72" y="45.72" rot="R180"/>
-<instance part="C10" gate="G$1" x="127" y="38.1"/>
+<instance part="C10" gate="G$1" x="127" y="33.02"/>
 <instance part="R26" gate="G$1" x="127" y="68.58" smashed="yes" rot="MR90">
 <attribute name="NAME" x="128.4986" y="64.77" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="131.318" y="64.77" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="D3" gate="G$1" x="127" y="58.42" rot="R270"/>
-<instance part="R20" gate="G$1" x="93.98" y="48.26" smashed="yes" rot="MR90">
-<attribute name="NAME" x="95.4786" y="44.45" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="98.298" y="44.45" size="1.778" layer="96" rot="MR90"/>
+<instance part="R20" gate="G$1" x="93.98" y="43.18" smashed="yes" rot="MR90">
+<attribute name="NAME" x="95.4786" y="39.37" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="98.298" y="39.37" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C9" gate="G$1" x="93.98" y="38.1"/>
-<instance part="GND10" gate="1" x="93.98" y="27.94"/>
+<instance part="C9" gate="G$1" x="93.98" y="33.02"/>
+<instance part="GND10" gate="1" x="93.98" y="22.86"/>
 <instance part="R15" gate="G$1" x="50.8" y="50.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="52.2986" y="46.99" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="55.118" y="46.99" size="1.778" layer="96" rot="MR90"/>
@@ -13384,7 +13384,7 @@ drill 1.1 mm</description>
 <net name="GND" class="1">
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="127" y1="30.48" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="127" y1="25.4" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -13436,7 +13436,7 @@ drill 1.1 mm</description>
 <segment>
 <pinref part="C9" gate="G$1" pin="-"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="93.98" y1="33.02" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="27.94" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -13738,17 +13738,15 @@ drill 1.1 mm</description>
 <segment>
 <pinref part="C10" gate="G$1" pin="+"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="127" y1="55.88" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="127" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="53.34" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<junction x="127" y="53.34"/>
-<wire x1="119.38" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="127" y1="40.64" x2="127" y2="35.56" width="0.1524" layer="91"/>
+<junction x="127" y="40.64"/>
+<wire x1="127" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="40.64" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="53.34" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="48.26" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="93.98" y="58.42"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
@@ -13775,7 +13773,7 @@ drill 1.1 mm</description>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="+"/>
-<wire x1="93.98" y1="43.18" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="38.1" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">

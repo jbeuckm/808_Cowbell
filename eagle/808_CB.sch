@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13148,12 +13148,12 @@ drill 1.1 mm</description>
 <part name="P+6" library="supply1" deviceset="+15V" device=""/>
 <part name="P-1" library="supply1" deviceset="-15V" device=""/>
 <part name="IC1" library="TR808clone" deviceset="4584" device="N"/>
-<part name="R5" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="330K"/>
+<part name="R5" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100K"/>
 <part name="C2" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="18n"/>
 <part name="C1" library="TR808clone" deviceset="C-EU" device="4MM_PITCH" value="22n"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="390k"/>
+<part name="R6" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="150k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="TUNE_1" library="pot" deviceset="3RP/1610N" device="" value="200k"/>
